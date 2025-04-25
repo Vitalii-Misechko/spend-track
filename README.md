@@ -8,5 +8,5 @@ Spending tracking web application. Vibe coding playground
 ## Progress
 - [] Create the product specification so AI can generate desired application
   - [x] Create spec questions
-  - [ ] Answer spec question
+  - [ ] Answer spec questions
   - [ ] Create `SPECIFICATION.md` specification
