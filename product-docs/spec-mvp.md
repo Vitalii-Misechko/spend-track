@@ -1,8 +1,11 @@
-# MVP
+# MVP Features Spec
+
+### Non functional requirements
+    - Supports internationalization
 
 ### Auth
     - user Sign-up/Sign-in with email
-    - user authentification with email
+    - user authentication with email
 
 ### Navigation panel at the top which allows to
     - Open Man page
@@ -49,13 +52,13 @@
     - The default state of the filters is when the period filter reflects the current month period. All other filters are empty
 
 ### Categories page
-    - Two pannels
-    - Left pannel contais two tabs
+    - Two panels
+    - Left panel contains two tabs
         - The first tab has name Spending. 
         - It list categories related to spending
         - The second tab has name Income
         - It list categories related to Income
-    - Right pannel contains
+    - Right panel contains
         - Category name. Max length 50 unicode chars 
         - Show Category
         - Save button. Which creates category and clears the name field
