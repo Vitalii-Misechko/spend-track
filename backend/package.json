@@ -1,0 +1,42 @@
+{
+  "name": "spend-track-backend",
+  "version": "1.0.0",
+  "description": "Backend for Spend Track application",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^12.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-logger": "^3.2.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/chai": "^4.3.11",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/koa": "^2.13.12",
+    "@types/koa__cors": "^4.0.3",
+    "@types/koa__router": "^12.0.4",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-logger": "^3.1.5",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.5",
+    "@types/supertest": "^2.0.16",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

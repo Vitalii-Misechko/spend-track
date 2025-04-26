@@ -16,8 +16,14 @@ Spending tracking web application. Vibe coding playground
   - [x] Create MVP feature specification [spec-mvp.md](./product-docs/spec-mvp.md)
   - [x] Create technical specification [spec-tech.md](./product-docs/spec-tech.md)
 - [ ] Generate the application
-  - [ ] Generate the frontend
-  - [ ] Generate the backend
-  - [ ] Generate the database
+  - [ ] Backend
+    - [x] Generate the backend implementation
+    - [x] Generate the database
+    - [x] Assess the generated code
+      - [ ] Change the error handling approach
+    - [ ] Verify backend works
+  - [ ] Frontend
+    - [ ] Generate the frontend implementation
+    - [ ] Assess the generated code
+    - [ ] Verify frontend works
   - [ ] Make the application work
-  - [ ] Assess the generated code
