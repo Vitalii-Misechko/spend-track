@@ -2,7 +2,11 @@
 
 Spending tracking web application. Vibe coding playground
 
+## Related links
+
 - [product-docs](./product-docs/readme.md) contains product related documentations
+  - [spec-mvp.md](./product-docs/spec-mvp.md) - MVP feature specification
+  - [spec-tech.md](./product-docs/spec-tech.md) - Technical specification
 
 
 ## Progress
