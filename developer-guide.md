@@ -44,17 +44,6 @@ This guide provides instructions for setting up a local development environment 
    npm install
    ```
 
-## Environment Variables
-
-The application requires the following environment variables to be set in a `.env` file located in the `backend` directory:
-
-- **PORT**: The port on which the backend server will run. Default: `3001`.
-- **DB_PATH**: (Optional) The path to the database. Ensure this is set if the application requires database connectivity.
-- **JWT_SECRET**: (Required) The secret key used for signing JSON Web Tokens (JWT). This must be set for authentication to work. Default: `your_jwt_secret`.
-- **JWT_EXPIRES_IN**: (Optional) The expiration time for JWT tokens. Default: `7d` (1 day).
-- **NODE_ENV**: (Optional) The environment in which the application is running. Default: `development`.
-
-
 4. **Start the backend server**
 
    ```bash

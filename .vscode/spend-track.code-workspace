@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../backend"
+		}
+	],
+	"settings": {
+		"sqltools.useNodeRuntime": true,
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"database": "${workspaceFolder:spend-track}/backend/database.sqlite",
+				"name": "spend-track"
+			}
+		]
+	}
+}

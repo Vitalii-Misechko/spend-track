@@ -57,7 +57,7 @@ export default async (ctx: Context, next: Next) => {
       } else if (error instanceof jwt.JsonWebTokenError) {
         throw new AppError('Invalid token. Please log in again.', 401);
       } else {
-        throw new AppError('Authentication failed. Please log in again.', 401);
+        throw error;
       }
     }
   } catch (error) {

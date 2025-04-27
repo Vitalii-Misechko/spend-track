@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node index.ts",
     "dev": "nodemon --exec ts-node index.ts",
-    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "test": "mocha -r ts-node/register -r ./tests/setup.ts tests/**/*.test.ts --exit",
     "build": "tsc"
   },
   "dependencies": {
